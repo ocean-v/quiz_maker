@@ -1,0 +1,5 @@
+{
+  "grantType": "client_credentials",
+  "clientId": "[client id]",
+  "clientSecret": "[client secret]"
+}
