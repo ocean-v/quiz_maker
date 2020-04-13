@@ -56,7 +56,7 @@ install.packages("jsonlite")
 ```
 
 ### コードのダウンロード
-[こちらのページ](https://github.com/ocean-v/quiz_maker)からファイルをダウンロード（あるいはレポジトリをクローン）して、任意のフォルダにファイルを保存します。
+このページからファイルをダウンロード（あるいはレポジトリをクローン）して、任意のフォルダにファイルを保存します。
 保存できたら`quiz_maker.r`があるフォルダを開いておきます。
 ファイルのエンコードはUTF-8になっているので注意してください。
 
@@ -66,7 +66,7 @@ install.packages("jsonlite")
 登録していない場合は[COTOHAのページ](https://api.ce-cotoha.com/contents/index.html)から無料のfor Developpersに登録します。
 
 - アカウントホームの確認
-各種情報を確認しておきます。[以前書いた記事](https://qiita.com/ocean_f/items/91e47786a6d2367da037#%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B9%E3%83%88%E3%83%BC%E3%82%AF%E3%83%B3%E3%81%AE%E5%8F%96%E5%BE%97)も参照。
+各種情報を確認しておきます。
 
 - `config.json`の編集
 フォルダ内の`config.json`をメモ帳等のエディタで開いて、[client id]と[client secret]を先程確認した自分のものに書き換えます。
@@ -82,7 +82,6 @@ install.packages("jsonlite")
 
 ## 実行
 上記の準備ができたらRを起動し、`quiz_maker.r`があるフォルダを作業ディレクトリに指定します。
-[以前書いた記事](https://qiita.com/ocean_f/items/1a4ba2d3ff085785581c)も参考。
 
 その後`source("quiz_maker.r", encoding = "utf-8")`をRから実行すると処理が開始されます。
 エラーが起きた場合はテキストを短くするか、時間をおいてやり直すとうまく行くかもしれません（ステータスコードで500が連続で出るなら短くしたほうがいいかも）。
